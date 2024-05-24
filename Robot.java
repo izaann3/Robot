@@ -16,9 +16,11 @@ public class Robot extends JPanel {
         add(createButton("Carregar Estat"));
     }
     
-    private JButton createButton(String text) {
-
-    }
+   private JButton createButton(String text) {
+       JButton button = new JButton(text);
+       button.setPreferredSize(new Dimension(150, 50));
+       return button;
+   }
     
     public static void main(String[] args) {
 
