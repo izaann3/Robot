@@ -11,7 +11,7 @@ public class Robot extends JPanel {
         add(createButton("Moure Endavant"));
         add(createButton("Girar Esquerra"));
         add(createButton("Moure Enrere"));
-        add(createButton("Girar Dreta"))
+        add(createButton("Girar Dreta"));
         add(createButton("Guardar Estat"));
         add(createButton("Carregar Estat"));
     }
