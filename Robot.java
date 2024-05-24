@@ -18,18 +18,18 @@ public class Robot extends JPanel {
   
    private JButton createButton(String text) {
        JButton button = new JButton(text);
-       button.setPreferredSize(new Dimension(150, 50));
+       button.setPreferredSize(new Dimension(50, 30));
        return button;
    }
   
    public static void main(String[] args) {
         JFrame frame = new JFrame();
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("Control de Robot");
         frame.setResizable(false);
-        frame.add(new Robot(), BorderLayout.CENTER);
-        frame.pack();
+        frame.add(new Robot());
         frame.setLocationRelativeTo(null);
+        frame.setSize(400, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
    }
 }
