@@ -18,7 +18,6 @@ public class Robot {
 
         pantalla.setEditable(false);
         
-        buttonsPanel.add(pantalla);
         buttonsPanel.add(endavant);
         buttonsPanel.add(enrere);
         buttonsPanel.add(esquerra);
